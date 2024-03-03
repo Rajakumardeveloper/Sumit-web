@@ -1,0 +1,144 @@
+    @font-face{
+  font-family:myfont;
+  src:url(/Font/banner.ttf);
+}
+      *{
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      .main{
+        max-width: 100vw;
+       height:auto;
+      }
+      .main .hero{
+        margin-top: 2rem;
+      }
+      .main .navbar{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 4rem;
+        max-width: 100%;
+        background-color: black;
+        padding: 0px 10px ;
+     
+      }
+      .navbar .logo{
+         background-color: white;
+         margin-left: 15px;
+         width: 150px;
+         height:3.5rem;
+      }
+      .navbar .logo img{
+        background-color: white;
+         width: 150px;
+         height:3.5rem;
+      }
+      .navbar input{
+        padding: 10px 10px;
+        width: 300px;
+        margin-right: 40px;
+        outline: none;
+      }
+      ::placeholder{
+        color: black;
+        margin-left: 2px;
+        font-size: 14px;
+       font-family: "Roboto", sans-serif;
+      } 
+      
+@media screen and (max-width: 600px) {
+   .navbar input{
+     width: 200px;
+     margin-right: 0px;
+    
+   }
+   .navbar h3{
+     margin-left: 5px;
+    font-size:25px;
+   
+   }
+  }
+     .hero {
+  height: auto;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row-wrap; /* Changed from row to row-wrap */
+  align-items: center;
+  justify-content:center; /* Added to align items to the start */
+  flex-wrap: wrap; /* Added to wrap items */
+}
+
+       .hero .nav{
+        display:flex;
+        width: 100%;
+        height: 3rem;
+        justify-content: center;
+        align-items: center;
+        
+      }
+.product{
+        width:339.9px;
+        height: 380px;
+        border: 1px solid grey;
+        
+       
+      }
+
+
+      .product img{
+        width:70%;
+        height:60%;
+        margin-top: 7px;
+       
+      }
+      .product .info{
+        width: 100%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      
+      }
+     .product h3{
+       margin-top: 20px;
+       width:auto;
+       font-size: 25px;
+       letter-spacing: 1px;
+       font-family: "Candal", sans-serif;
+      
+     }
+     .product lable{
+       margin-top: 10px;
+      font-family: "Sansita", sans-serif;
+     font-size: 20px;
+     }
+     .product a{
+       width: 90%;
+       height: 1rem;
+      margin-top: 18px;
+       background-color: transparent;
+       color:black;
+       border: 2px solid black;
+       padding: 6px 4px;
+       text-decoration:none;
+       font-size: 16px;
+       display: flex;
+       align-items: center;
+       justify-content:center;
+       cursor: pointer;
+       letter-spacing: 1.4px;
+       font-weight: bold;
+       transition: 0.3s ease-in;
+       font-family: "Roboto", sans-serif;
+     }
+  
+   .product a:hover {
+     transform: scale(10px);
+     background-color:black;
+     color: white;
+   }
+   
